@@ -37,7 +37,8 @@ It ingests Windows security events with **Elastic Agent (Defend)**, detects **ad
 - A **Windows 10/11 VM** (local, lab, or cloud) with admin access.
 - **Elastic Agent** installed on Windows VM (policy includes **Elastic Defend** + Windows Event Log).
 - **Tines** tenant (free trial is fine) and an **email** integration (SMTP/Gmail, etc.).
-
-
+  
 Explore the full architecture, setup steps, and automation logic in the file: Elastic Security SIEM & Automated Incident Response Project.
+
 ---
+
