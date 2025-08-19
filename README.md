@@ -38,27 +38,6 @@ It ingests Windows security events with **Elastic Agent (Defend)**, detects **ad
 - **Elastic Agent** installed on Windows VM (policy includes **Elastic Defend** + Windows Event Log).
 - **Tines** tenant (free trial is fine) and an **email** integration (SMTP/Gmail, etc.).
 
-### 1) Clone
-```bash
-git clone https://github.com/your-username/elastic-siem-tines-ir.git
-cd elastic-siem-tines-ir
-2) Install Elastic Agent (Windows)
-From your Windows VM (PowerShell as Administrator):
-
-
-# Get your enrollment command from Kibana → Fleet → Add agent
-# Example:
-.\Elastic-Agent-Installer.exe install --url=https://<elastic-cloud-url>:443 --enrollment-token=<TOKEN>
-Ensure the agent shows Healthy in Kibana → Fleet.
-
-3) Import (optional) dashboard/rule exports
-Kibana → Stack Management → Saved Objects → Import:
-
-kibana/detection-rule.ndjson
-
-kibana/dashboard.ndjson
-
-(Or create manually using the steps below.)
 
 4) Create the detection rule (manual path)
 Kibana → Security → Rules → Create new rule → Custom query
