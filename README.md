@@ -3,7 +3,7 @@
 A compact, production-safe demo of a **real-time detection → SOAR triage → email alerting** pipeline.  
 It ingests Windows security events with **Elastic Agent (Defend)**, detects **admin-privileged logons** (Win Event **4672**), fires a webhook into **Tines**, auto-summarizes the incident with AI, and notifies analysts by email.
 
-> **Why this repo?** It’s a portfolio-grade, end-to-end SOC workflow you can clone, configure, and validate in under an hour—showcasing SIEM rules, EDR telemetry, SOAR orchestration, and clean rollback.
+
 
 ---
 
